@@ -12,7 +12,14 @@ mod_plotting_ui <- function(id){
   tagList(
     sidebarLayout(
       sidebarPanel(
-        "peptide_sequence"
+        "peptide_sequence",
+        textAreaInput(
+          inputId = ns("peptide"),
+          label = "Peptide sequence",
+          width = 300,
+          height = 100,
+          placeholder = "Insert peptide sequence"
+        )
       ),
       mainPanel(
         "plot"
