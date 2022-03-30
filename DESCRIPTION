@@ -1,32 +1,19 @@
 Package: centraldogma
 Title: Central dogma
 Version: 0.0.0.9000
-Authors@R:
-  c(person(given = "Enrique",
-           family = "Martinez",
-           role = c("aut", "cre"),
-           email = "your@email.com"),
-  person(given = "Paula",
-           family = "Molina",
-           role = c("aut"),
-           email = "paulapolls@hotmail.com"),
-  person(given = "Bernat",
-           family = "Godayol",
-           role = c("aut"),
-           email = "bernatgodayol@gmail.com"),
-  person(given = "Jakob",
-           family = "Larsen",
-           role = c("aut"),
-           email = "s213428@student.dtu.dk"),
-  person(given = "Sergio",
-           family = "Esteban",
-           role = c("aut"),
-           email = "s212716@dtu.dk"))
+Authors@R:c(
+    person("Enrique", "Martinez", , "your@email.com", role = c("aut", "cre")),
+    person("Paula", "Molina", , "paulapolls@hotmail.com", role = "aut"),
+    person("Bernat", "Godayol", , "bernatgodayol@gmail.com", role = "aut"),
+    person("Jakob", "Larsen", , "s213428@student.dtu.dk", role = "aut"),
+    person("Sergio", "Esteban", , "s212716@dtu.dk", role = "aut")
+  )
 Description: PKG_DESC.
 License: What license is it under?
 Imports: 
     config (>= 0.3.1),
     golem (>= 0.3.2),
+    magrittr,
     shiny (>= 1.7.1)
 Encoding: UTF-8
 LazyData: true
