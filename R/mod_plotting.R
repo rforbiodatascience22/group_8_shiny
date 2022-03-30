@@ -22,7 +22,10 @@ mod_plotting_ui <- function(id){
         )
       ),
       mainPanel(
-        "plot"
+        "plot",
+        plotOutput(
+          outputId = ns("abundance")
+        )
       )
     )
 
