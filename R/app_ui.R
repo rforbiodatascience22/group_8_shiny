@@ -12,8 +12,8 @@ app_ui <- function(request) {
     fluidPage(
       h1("centraldogma"),
       tabsetPanel(
-        tabPanel(title = "panel1",
-                 "module1"),
+        tabPanel(title = "DNA to Peptide",
+                 mod_dnatopeptide_ui("dnatopeptide_1")),
         tabPanel(title = "Residue frequency plot",
                  mod_plotting_ui("plotting_1"))
       )

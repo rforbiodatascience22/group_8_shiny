@@ -1,12 +1,16 @@
 Package: centraldogma
 Title: Central dogma
 Version: 0.0.0.9000
-Authors@R: person('Enrique', 'Martinez', email = 'AUTHOR@MAIL.COM', role = c('cre', 'aut'))
+Authors@R: 
+    person("Enrique", "Martinez", , "AUTHOR@MAIL.COM", role = c("cre", "aut"))
 Description: PKG_DESC.
 License: MIT + file LICENSE
 Imports: 
+    centralDogma,
     config (>= 0.3.1),
+    ggplot2,
     golem (>= 0.3.2),
+    Group8,
     magrittr,
     shiny (>= 1.7.1)
 Encoding: UTF-8

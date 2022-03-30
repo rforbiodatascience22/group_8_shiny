@@ -37,6 +37,15 @@ mod_plotting_ui <- function(id){
 #' @noRd
 mod_plotting_server <- function(id){
   moduleServer( id, function(input, output, session){
+    output$abundance <- renderPlot({
+      if(input$peptide == ""){
+        NULL
+      } else{
+        input$peptide %>%
+          Group8::prot_stats() +
+          ggplot2::theme(legend.position = "none")
+      }
+    })
     ns <- session$ns
 
   })
