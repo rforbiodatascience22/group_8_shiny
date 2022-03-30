@@ -1,15 +1,9 @@
 Package: centraldogma
 Title: Central dogma
 Version: 0.0.0.9000
-Authors@R:c(
-    person("Enrique", "Martinez", , "your@email.com", role = c("aut", "cre")),
-    person("Paula", "Molina", , "paulapolls@hotmail.com", role = "aut"),
-    person("Bernat", "Godayol", , "bernatgodayol@gmail.com", role = "aut"),
-    person("Jakob", "Larsen", , "s213428@student.dtu.dk", role = "aut"),
-    person("Sergio", "Esteban", , "s212716@dtu.dk", role = "aut")
-  )
+Authors@R: person('Enrique', 'Martinez', email = 'AUTHOR@MAIL.COM', role = c('cre', 'aut'))
 Description: PKG_DESC.
-License: What license is it under?
+License: MIT + file LICENSE
 Imports: 
     config (>= 0.3.1),
     golem (>= 0.3.2),
