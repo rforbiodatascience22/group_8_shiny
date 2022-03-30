@@ -40,6 +40,7 @@ mod_plotting_server <- function(id){
         NULL
       } else{
         input$peptide %>%
+          stringr::str_remove_all(pattern = "\\*") %>%
           Group8::prot_stats() +
           ggplot2::theme(legend.position = "none")
       }
