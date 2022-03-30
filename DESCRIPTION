@@ -2,26 +2,26 @@ Package: centraldogma
 Title: Central dogma
 Version: 0.0.0.9000
 Authors@R:
-  (person(given = "Enrique",
+  c(person(given = "Enrique",
            family = "Martinez",
            role = c("aut", "cre"),
            email = "your@email.com"),
-  (person(given = "Paula",
+  person(given = "Paula",
            family = "Molina",
            role = c("aut"),
            email = "paulapolls@hotmail.com"),
-  (person(given = "Bernat",
+  person(given = "Bernat",
            family = "Godayol",
            role = c("aut"),
            email = "bernatgodayol@gmail.com"),
-  (person(given = "Jakob",
+  person(given = "Jakob",
            family = "Larsen",
            role = c("aut"),
            email = "s213428@student.dtu.dk"),
-  (person(given = "Sergio",
+  person(given = "Sergio",
            family = "Esteban",
            role = c("aut"),
-           email = "s212716@dtu.dk"),
+           email = "s212716@dtu.dk"))
 Description: PKG_DESC.
 License: What license is it under?
 Imports: 
